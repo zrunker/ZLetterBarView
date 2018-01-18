@@ -22,11 +22,12 @@ public class MainActivity extends AppCompatActivity {
         letterBar.setOnTouchingLetterChangedListener(new LetterBar.OnTouchingLetterChangedListener() {
             @Override
             public void onTouchingLetterChanged(String s) {
+                // 触摸选择事件监听
                 textView.setText("select " + s);
             }
         });
-        letterBar.setTextColor(Color.parseColor("#40aff2"))
-                .setLetters(this.getResources().getStringArray(cc.ibooker.letterbarview.R.array.letter_list))
-                .setbothSidesMargin(16);
+        letterBar.setTextColor(Color.parseColor("#40aff2")) // 设置字体颜色
+                .setLetters(this.getResources().getStringArray(cc.ibooker.letterbarview.R.array.letter_list)) // 设置数据
+                .setbothSidesMargin(16); // 设置两侧间距
     }
 }
