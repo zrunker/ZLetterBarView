@@ -1,6 +1,36 @@
 # ZLetterBar
 按照字母#A~Z自定义侧边栏控件，实现列表索引，同时具有字母弹出效果。
 
+### 引入控件
+
+1、使用gradle
+```
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
+```
+2、使用maven
+```
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+    
+    <dependency>
+	    <groupId>com.github.zrunker</groupId>
+	    <artifactId>ZLetterBar</artifactId>
+	    <version>v1.0</version>
+	</dependency>
+```
+
 ### 引入布局
 
 ```
