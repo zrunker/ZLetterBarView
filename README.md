@@ -6,13 +6,13 @@
 1、使用gradle
 ```
 allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
     
     dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.zrunker:ZLetterBar:v1.0'
 	}
 ```
 2、使用maven
