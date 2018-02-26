@@ -53,6 +53,7 @@ public class LetterBar extends View {
 
     private RectF mIsDownRect = new RectF();
 
+    // 构造方法
     public LetterBar(Context context) {
         this(context, null);
     }

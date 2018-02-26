@@ -15,10 +15,21 @@
         android:listSelector="@android:color/transparent"
         android:scrollbars="none" />
 
-    <cc.ibooker.letterbarview.LetterBar
-        android:id="@+id/letterBar"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+    <!--    <cc.ibooker.letterbarview.LetterBar
+            android:id="@+id/letterBar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />-->
+
+    <cc.ibooker.letterbarview.LetterView
+        android:id="@+id/letterView"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:id="@+id/textView"
